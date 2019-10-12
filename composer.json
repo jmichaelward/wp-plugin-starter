@@ -17,6 +17,14 @@
         "scaffold"
     ],
     "require": {},
+    "require-dev": {
+        "jmichaelward/wp-plugin-starter-init": "dev-master@dev"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "./vendor/bin/wp-plugin-starter-init scaffold"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "JMichaelWard\\WPPluginStarter\\": "src/"
