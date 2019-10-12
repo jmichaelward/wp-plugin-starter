@@ -1,3 +1,28 @@
 {
-    "require": {}
+    "name": "jmichaelward/wp-plugin-starter",
+    "description": "A bootstrap library to help you quickly scaffold WordPress plugins.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Jeremy Ward",
+            "email": "jeremy@jmichaelward.com",
+            "homepage": "https://jmichaelward.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "scaffold"
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JMichaelWard\\WPPluginStarter\\": "src/"
+        }
+    },
+    "suggest": {
+        "webdevstudios/oops-wp": "Provides interfaces and abstract classes to support object-oriented WordPress development."
+    }
 }
