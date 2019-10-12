@@ -21,9 +21,7 @@
         "jmichaelward/wp-plugin-starter-init": "dev-master@dev"
     },
     "scripts": {
-        "post-create-project-cmd": [
-            "./vendor/bin/wp-plugin-starter-init scaffold"
-        ]
+        "plugin-init": "php ./vendor/bin/wp-plugin-starter"
     },
     "autoload": {
         "psr-4": {
